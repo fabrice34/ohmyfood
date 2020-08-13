@@ -1,0 +1,39 @@
+.block
+{
+    
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+       &__item
+         {
+            color: #e6eeec;
+           
+          }
+         &__item__menu1, &__item__menu2, &__item__menu3, &__item__menu4
+          {
+           border: 2px rgb(119, 116, 116) solid;
+           padding: 200px 180px 200px 180px;
+           margin: 40px 20px 40px 20px;
+           text-align: center;
+           box-shadow: 2px 2px 2px rgb(119, 116, 116);
+          }
+      
+          &__item__menu3 {
+            padding-top: 260px;
+            background-color: rgb(207, 154, 187);
+          }
+          
+          &__item__menu1 {
+            background-color: rgb(184, 105, 144);
+          }
+          
+          &__item__menu2 {
+            background-color: rgb(219, 212, 216);
+          }
+          &__item__menu4 {
+            background-color: rgb(255, 250, 250);
+          }
+         
+       
+}

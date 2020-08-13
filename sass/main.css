@@ -1,4 +1,137 @@
 body {
-  background-color: yellow;
+  width: 100%;
+  height: auto;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  background-color: #e6eeec;
+  color: #000103;
+  padding: 0px;
+  margin: 0px;
+}
+
+body header, body footer, body .prochainement {
+  color: #c2b611;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+header {
+  font-size: 40px;
+}
+
+.block {
+  font-size: 20px;
+}
+
+footer {
+  font-size: 30px;
+}
+
+header {
+  border: 2px #070808 solid;
+  background-color: #12724d;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block__item {
+  color: #e6eeec;
+}
+
+.block__item__menu1, .block__item__menu2, .block__item__menu3, .block__item__menu4 {
+  border: 2px #777474 solid;
+  padding: 200px 180px 200px 180px;
+  margin: 40px 20px 40px 20px;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 2px #777474;
+          box-shadow: 2px 2px 2px #777474;
+}
+
+.block__item__menu3 {
+  padding-top: 260px;
+  background-color: #cf9abb;
+}
+
+.block__item__menu1 {
+  background-color: #b86990;
+}
+
+.block__item__menu2 {
+  background-color: #dbd4d8;
+}
+
+.block__item__menu4 {
+  background-color: snow;
+}
+
+footer {
+  border: 2px #070808 solid;
+  background-color: #12724d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.prochainement {
+  border: 2px #070808 solid;
+  border-radius: 10px;
+  background-color: #12724d;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 40px;
+}
+
+/* ------ css des pages de chaque menus mise ici pour le moment le temps solutions soit trouver ----- */
+.menu1, .menu2, .menu3, .menu4 {
+  border: 2px #777474 solid;
+  margin: 100px 80px 100px 80px;
+  padding: 40px;
+}
+
+.menu__header, h3, .menu__footer {
+  text-align: center;
+}
+
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
