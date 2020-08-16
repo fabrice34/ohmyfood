@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* ------ css principale ------ */
 body {
   width: 100%;
   height: auto;
@@ -12,6 +14,33 @@ body {
 body header, body footer, body .prochainement {
   color: #c2b611;
   text-align: center;
+}
+
+/* ------ css des pages de chaque menus mise ici pour le moment le temps solutions soit trouver ----- */
+.menu1, .menu2, .menu3, .menu4 {
+  border: 2px #777474 solid;
+  margin: 100px 80px 100px 80px;
+  padding: 40px;
+}
+
+.menu__header, h3, .menu__footer {
+  text-align: center;
+}
+
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body {
@@ -36,6 +65,8 @@ header {
   background-color: #12724d;
 }
 
+/* ------------- couleur au niveau des différents menu ------------- */
+/* ------------- .block ------------- */
 .block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,19 +98,19 @@ header {
 
 .block__item__menu3 {
   padding-top: 260px;
-  background-color: #cf9abb;
+  background-color: #fcebf5;
 }
 
 .block__item__menu1 {
-  background-color: #b86990;
+  background-color: #fcc7e8;
 }
 
 .block__item__menu2 {
-  background-color: #dbd4d8;
+  background-color: #e9dae3;
 }
 
 .block__item__menu4 {
-  background-color: snow;
+  background-color: #fdfafc;
 }
 
 footer {
@@ -108,30 +139,22 @@ footer {
   margin-bottom: 40px;
 }
 
-/* ------ css des pages de chaque menus mise ici pour le moment le temps solutions soit trouver ----- */
-.menu1, .menu2, .menu3, .menu4 {
-  border: 2px #777474 solid;
-  margin: 100px 80px 100px 80px;
-  padding: 40px;
+.menu1 {
+  background-color: #fcc7e8;
 }
 
-.menu__header, h3, .menu__footer {
-  text-align: center;
+.menu2 {
+  background-color: #e9dae3;
 }
 
-article {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.menu3 {
+  background-color: #fcebf5;
 }
+
+.menu4 {
+  background-color: #fdfafc;
+}
+
+/* ------------- couleur principale ------------- */
+/* ------------- couleur au niveau des différents menu ------------- */
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,4 @@
+/* ------ css principale ------ */
 $colour-primary: #e6eeec;
 $colour-secondary: rgb(194, 182, 17) ;
 body
@@ -18,6 +19,28 @@ body
 
           
 }
+
+ /* ------ css des pages de chaque menus mise ici pour le moment le temps solutions soit trouver ----- */
+ .menu1, .menu2, .menu3,.menu4
+  {
+    border: 2px rgb(119, 116, 116) solid;
+    margin : 100px 80px 100px 80px;
+    padding: 40px;
+
+  }
+
+  .menu__header, h3, .menu__footer
+  {
+    text-align: center;
+  }
+
+  article
+  {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 
 
 

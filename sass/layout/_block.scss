@@ -1,3 +1,9 @@
+/* ------------- couleur au niveau des différents menu ------------- */
+$colour-menu1: #fcc7e8;
+$colour-menu2: #e9dae3;
+$colour-menu3: #fcebf5;
+$colour-menu4: #fdfafc;
+/* ------------- .block ------------- */
 .block
 {
     
@@ -21,18 +27,18 @@
       
           &__item__menu3 {
             padding-top: 260px;
-            background-color: rgb(207, 154, 187);
+            background-color: $colour-menu3;
           }
           
           &__item__menu1 {
-            background-color: rgb(184, 105, 144);
+            background-color: $colour-menu1;
           }
           
           &__item__menu2 {
-            background-color: rgb(219, 212, 216);
+            background-color: $colour-menu2;
           }
           &__item__menu4 {
-            background-color: rgb(255, 250, 250);
+            background-color: $colour-menu4;
           }
          
        

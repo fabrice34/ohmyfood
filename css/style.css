@@ -1,3 +1,5 @@
+
+
 /* ------------- css principale ------------- */
 body {
     width: 100%;
@@ -58,20 +60,20 @@ body {
   }
  
   
-         .block__item__menu3 {
+        .block__item__menu3 {
           padding-top: 260px;
-          background-color: rgb(207, 154, 187);
+          background-color: #fcebf5;
         }
         
         .block__item__menu1 {
-          background-color: rgb(184, 105, 144);
+          background-color: #fcc7e8;
         }
         
         .block__item__menu2 {
-          background-color: rgb(219, 212, 216);
+          background-color: #e9dae3;
         }
         .block__item__menu4 {
-          background-color: rgb(255, 250, 250);
+          background-color: #fdfafc;
         }
   .prochainement
    {
@@ -102,8 +104,7 @@ body {
             
   }
   
-  /* ------------- css des pages de chaque menus ------------- */
- .menu1, .menu2, .menu3,.menu4
+  .menu1, .menu2, .menu3,.menu4
   {
     border: 2px rgb(119, 116, 116) solid;
     margin : 100px 80px 100px 80px;
@@ -115,16 +116,75 @@ body {
   {
     text-align: center;
   }
-h3
-{
-  display: flex;
-  flex-direction: row;
-}
+  
   article
   {
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+ /* --- menu1 ---*/
+ .menu1
+{
+  background-color: #fcc7e8;
+}
+  #tdroite1
+  {
+    width: 300px;
+    fill: black;
+  }
+
+  #tgauche1
+  {
+    width: 300px;
+    fill: black;
+  }
+  /* --- menu2 ---*/
+  .menu2
+{
+  background-color: #e9dae3;
+}
+  #tdroite2
+  {
+    width: 300px;
+    fill: black;
+  }
+  #tgauche2
+  {
+    width: 300px;
+    fill: black;
+  }
+
+    /* --- menu3 ---*/
+    .menu3
+{
+  background-color: #fcebf5;
+}
+    #tdroite3
+    {
+      width: 300px;
+      fill: black;
+    }
+    #tgauche3
+    {
+      width: 300px;
+      fill: black;
+    }
+
+      /* --- menu4 ---*/
+      .menu4
+{
+  background-color: #fdfafc;
+}
+  #tdroite4
+  {
+    width: 300px;
+    fill: black;
+  }
+  #tgauche4
+  {
+    width: 300px;
+    fill: black;
   }
   /*# sourceMappingURL=main.css.map */
