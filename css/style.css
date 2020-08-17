@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&family=Handlee&family=Satisfy&display=swap');
 
 /* ------------- css principale ------------- */
 body {
@@ -37,9 +40,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -63,25 +63,32 @@ body {
         .block__item__menu3 {
           padding-top: 260px;
           background-color: #fcebf5;
+          font-family: 'Satisfy', cursive;
         }
         
         .block__item__menu1 {
           background-color: #fcc7e8;
+          font-family: 'Devonshire', cursive;
+          padding: 200px 140px 200px 140px;
         }
         
         .block__item__menu2 {
           background-color: #e9dae3;
+          font-family: 'Eagle Lake', cursive;
+          padding: 200px 140px 200px 140px;
         }
         .block__item__menu4 {
           background-color: #fdfafc;
+          font-family: 'Handlee', cursive;
+          padding-bottom: 213px;
         }
   .prochainement
    {
       border: 2px #070808 solid;
       border-radius: 10px;
       background-color: #12724d;
-      margin-left: 500px;
-      margin-right: 500px;
+      margin-left: 330px;
+      margin-right: 330px;
       margin-bottom: 40px;
           
     }
@@ -125,9 +132,11 @@ body {
     justify-content: space-between;
   }
  /* --- menu1 ---*/
+ 
  .menu1
 {
   background-color: #fcc7e8;
+  font-family: 'Devonshire', cursive;
 }
   #tdroite1
   {
@@ -144,6 +153,7 @@ body {
   .menu2
 {
   background-color: #e9dae3;
+  font-family: 'Eagle Lake', cursive;
 }
   #tdroite2
   {
@@ -160,6 +170,7 @@ body {
     .menu3
 {
   background-color: #fcebf5;
+  font-family: 'Satisfy', cursive;
 }
     #tdroite3
     {
@@ -176,6 +187,7 @@ body {
       .menu4
 {
   background-color: #fdfafc;
+  font-family: 'Handlee', cursive;
 }
   #tdroite4
   {

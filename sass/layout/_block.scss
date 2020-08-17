@@ -9,7 +9,7 @@ $colour-menu4: #fdfafc;
     
     display:flex;
     flex-direction: row;
-    align-items: flex-end;
+   
     justify-content: center;
        &__item
          {
@@ -28,17 +28,25 @@ $colour-menu4: #fdfafc;
           &__item__menu3 {
             padding-top: 260px;
             background-color: $colour-menu3;
+            font-family: 'Satisfy', cursive;
           }
           
           &__item__menu1 {
             background-color: $colour-menu1;
+            font-family: 'Devonshire', cursive;
+            padding: 200px 140px 200px 140px;
           }
           
           &__item__menu2 {
             background-color: $colour-menu2;
+            font-family: 'Eagle Lake', cursive;
+            padding: 200px 140px 200px 140px;
           }
           &__item__menu4 {
             background-color: $colour-menu4;
+            font-family: 'Handlee', cursive;
+            padding-bottom: 213px;
+
           }
          
        
