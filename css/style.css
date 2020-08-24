@@ -69,9 +69,16 @@ body {
         .block__item__menu3 {
           
           background-color: #fcebf5;
-          font-family: 'Satisfy', cursive;
-          
+          font-family: 'Satisfy', cursive;  
           padding: 262px 180px 200px 180px;
+          /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#241672+0,4a4277+50,6a696e+100 */
+background: #241672; /* Old browsers */
+background: -moz-linear-gradient(left,  #241672 0%, #4a4277 50%, #6a696e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #241672 0%,#4a4277 50%,#6a696e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #241672 0%,#4a4277 50%,#6a696e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#241672', endColorstr='#6a696e',GradientType=1 ); /* IE6-9 */
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
         }
         
         .block__item__menu1 {
@@ -84,12 +91,28 @@ body {
           background-color: #e9dae3;
           font-family: 'Eagle Lake', cursive;
           padding: 200px 150px 200px 150px;
+              /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#57200f+0,591a61+50,241672+100,59af59+100,91c691+100 */
+background: #57200f; /* Old browsers */
+background: -moz-linear-gradient(left,  #57200f 0%, #591a61 50%, #241672 100%, #59af59 100%, #91c691 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #57200f 0%,#591a61 50%,#241672 100%,#59af59 100%,#91c691 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #57200f 0%,#591a61 50%,#241672 100%,#59af59 100%,#91c691 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57200f', endColorstr='#91c691',GradientType=1 ); /* IE6-9 */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
         }
         .block__item__menu4 {
           background-color: #fdfafc;
           font-family: 'Handlee', cursive;
            
           padding: 200px 180px 212px 180px;
+          /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#002400+0,005700+17,008a00+33,59af59+67,91c691+83,cedbce+100 */
+background: #002400; /* Old browsers */
+background: -moz-linear-gradient(left,  #002400 0%, #005700 17%, #008a00 33%, #59af59 67%, #91c691 83%, #cedbce 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #002400 0%,#005700 17%,#008a00 33%,#59af59 67%,#91c691 83%,#cedbce 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #002400 0%,#005700 17%,#008a00 33%,#59af59 67%,#91c691 83%,#cedbce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002400', endColorstr='#cedbce',GradientType=1 ); /* IE6-9 */
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
         }
         
   .prochainement
@@ -181,22 +204,29 @@ body {
   .menu__footer img{
     width: 80px
   }
-  #svg26{
-    width:20px;
-  }
+  
   /* --- menu2 ---*/
   .menu2
 {
   background-color: #e9dae3;
   font-family: 'Eagle Lake', cursive;
 }
-.menu_header2
+.menu__header2 h2
 {
   
-  background: linear-gradient(to right, #57200f, #591a61, #241672);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#57200f+0,591a61+50,241672+100,59af59+100,91c691+100 */
+background: #57200f; /* Old browsers */
+background: -moz-linear-gradient(left,  #57200f 0%, #591a61 50%, #241672 100%, #59af59 100%, #91c691 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #57200f 0%,#591a61 50%,#241672 100%,#59af59 100%,#91c691 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #57200f 0%,#591a61 50%,#241672 100%,#59af59 100%,#91c691 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57200f', endColorstr='#91c691',GradientType=1 ); /* IE6-9 */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+ }
   
   
-}
+  
+
 .menu__entrée2
 {
   color: #57200f; 
@@ -247,9 +277,16 @@ body {
   background-color: #fcebf5;
   font-family: 'Satisfy', cursive;
 }
-.menu_header3
+.menu__header3 h2
 {
-  
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#241672+0,4a4277+50,6a696e+100 */
+background: #241672; /* Old browsers */
+background: -moz-linear-gradient(left,  #241672 0%, #4a4277 50%, #6a696e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #241672 0%,#4a4277 50%,#6a696e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #241672 0%,#4a4277 50%,#6a696e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#241672', endColorstr='#6a696e',GradientType=1 ); /* IE6-9 */
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
 }
 
   .tdroite3_1
@@ -293,19 +330,27 @@ body {
 }
 .menu__header4
 {
-
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#002400+0,005700+17,008a00+33,59af59+67,91c691+83,cedbce+100 */
+background: #002400; /* Old browsers */
+background: -moz-linear-gradient(left,  #002400 0%, #005700 17%, #008a00 33%, #59af59 67%, #91c691 83%, #cedbce 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #002400 0%,#005700 17%,#008a00 33%,#59af59 67%,#91c691 83%,#cedbce 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #002400 0%,#005700 17%,#008a00 33%,#59af59 67%,#91c691 83%,#cedbce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002400', endColorstr='#cedbce',GradientType=1 ); /* IE6-9 */
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
  
 }
+
 .tdroite4
 {
   width: 300px;
-  fill: #3E923A;
+  fill: #11800d;
   
 }
 .tgauche4
 {
   width: 300px;
-  fill: #678666;
+  fill: #11800d;
 }
 
    /* ------------- responsive page principale avec 3 breackpoint                              ------------- */
@@ -349,7 +394,7 @@ body {
        flex-direction: column;
        padding-top: 0px;
       padding-bottom: 0px;
-      font-size: 15px;
+      font-size: 20px;
   } 
  
   @media all and (max-width: 699px)
@@ -389,7 +434,7 @@ body {
       flex-direction: column;
       padding-top: 0px;
       padding-bottom: 0px;
-      font-size: 15px;
+      font-size: 20px;
      }   
   }      
     @media all and (max-width: 499px)
@@ -427,7 +472,7 @@ body {
             margin-left: 60px;
             margin-right: 60px;
             margin-bottom: 60px; 
-            
+            font-size: 15px;
         }
         footer
     {
@@ -435,7 +480,10 @@ body {
         flex-direction: column;
         padding-top: 0px;
         padding-bottom: 0px;
-        font-size: 15px;
+        font-size: 20px;
+        position: relative;
+        padding-left: 0px;
+
         
     }
    
