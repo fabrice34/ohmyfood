@@ -13,6 +13,7 @@ body {
     color: #000103;
     padding: 0px;
     margin: 0px;
+    
   }
   
   body header, body footer, body .prochainement {
@@ -28,7 +29,9 @@ body {
   header {
     border: 2px #070808 solid;
     background-color: #12724d;
-    font-size:40px;
+    font-size:30px;
+    padding-bottom: 5px;
+    padding-bottom: 5px;
   }
   
   .block {
@@ -44,7 +47,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
             font-size:20px;
-            
+          
   }
   
   .block__item {
@@ -53,35 +56,40 @@ body {
   
   .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4 {
     border: 2px rgb(119, 116, 116) solid;
-    padding: 200px 180px 200px 180px;
+    
     margin: 40px 20px 40px 20px;
     text-align: center;
+    align-items: stretch;
     box-shadow: 2px 2px 2px rgb(119, 116, 116);
   }
  
   
         .block__item__menu3 {
-          padding-top: 260px;
+          
           background-color: #fcebf5;
           font-family: 'Satisfy', cursive;
+          padding-bottom: 200px;
+          padding: 262px 180px 200px 180px;
         }
         
         .block__item__menu1 {
           background-color: #fcc7e8;
           font-family: 'Devonshire', cursive;
-          padding: 200px 140px 200px 140px;
+          padding: 200px 150px 200px 150px;
         }
         
         .block__item__menu2 {
           background-color: #e9dae3;
           font-family: 'Eagle Lake', cursive;
-          padding: 200px 140px 200px 140px;
+          padding: 200px 150px 200px 150px;
         }
         .block__item__menu4 {
           background-color: #fdfafc;
           font-family: 'Handlee', cursive;
-          padding-bottom: 213px;
+           
+          padding: 200px 180px 212px 180px;
         }
+        
   .prochainement
    {
       border: 2px #070808 solid;
@@ -89,7 +97,7 @@ body {
       background-color: #12724d;
       margin-left: 330px;
       margin-right: 330px;
-      margin-bottom: 40px;
+      margin-bottom: 100px;
           
     }
     footer {
@@ -108,23 +116,31 @@ body {
             justify-content: space-between;
             padding-left: 30px;
             padding-right: 30px;
-            
-  }
+            padding-top: 20px;
+            padding-bottom: 20px;
+     position: fixed;
+     bottom: 0px;
+     width: 95%;
+     height: auto;
+            }
   
+
+  /* ------------- css des autres pages html (menus) ------------- */
   .menu1, .menu2, .menu3,.menu4
   {
     border: 2px rgb(119, 116, 116) solid;
-    margin : 100px 80px 100px 80px;
-    padding: 40px;
+    margin : 100px 120px 200px 120px;
+    padding:  40px  40px  80px  40px;
+    font-size: 30px;
 
   }
 
-  .menu__header, h3, .menu__footer
+  .menu__header ,.menu__header2 ,.menu__header3,.menu__header4, h3, .menu__footer
   {
     text-align: center;
   }
   
-  article
+  .title , .containt
   {
     display:flex;
     flex-direction: row;
@@ -138,13 +154,14 @@ body {
   background-color: #fcc7e8;
   font-family: 'Devonshire', cursive;
 }
-  #tdroite1
+
+  .tdroite1
   {
     width: 300px;
     fill: black;
   }
 
-  #tgauche1
+  .tgauche1
   {
     width: 300px;
     fill: black;
@@ -155,33 +172,99 @@ body {
   background-color: #e9dae3;
   font-family: 'Eagle Lake', cursive;
 }
-  #tdroite2
+.menu_header2
+{
+  
+      color: linear-gradient(to bottom right, red, rgba(0,0,0,0));
+  
+}
+.menu__entrée2
+{
+  color: #57200f; 
+}
+  .tdroite2_1
   {
     width: 300px;
-    fill: black;
+    fill: #57200f;
   }
-  #tgauche2
+  .tgauche2_1
   {
     width: 300px;
-    fill: black;
+    fill: #57200f;
+  }
+  .menu__platderesistance2
+  {
+    color: #591a61;
+  }
+  .tdroite2_2
+  {
+    width: 300px;
+    fill: #591a61;
+  }
+  .tgauche2_2
+  {
+    width: 300px;
+    fill: #591a61;
+  }
+  .menu__dessert2
+  {
+    color: #241672;
+  }
+  .tdroite2_3
+  {
+    width: 300px;
+    fill: #241672;
+  }
+  .tgauche2_3
+  {
+    width: 300px;
+    fill: #241672;
   }
 
+  
     /* --- menu3 ---*/
     .menu3
 {
   background-color: #fcebf5;
   font-family: 'Satisfy', cursive;
 }
-    #tdroite3
-    {
-      width: 300px;
-      fill: black;
-    }
-    #tgauche3
-    {
-      width: 300px;
-      fill: black;
-    }
+.menu_header3
+{
+  
+}
+
+  .tdroite3_1
+  {
+    width: 300px;
+    fill: #241672;
+  }
+  .tgauche3_1
+  {
+    width: 300px;
+    fill: #241672;
+  }
+  
+  .tdroite3_2
+  {
+    width: 300px;
+    fill: #4a4277;
+  }
+  .tgauche3_2
+  {
+    width: 300px;
+    fill: #4a4277;
+  }
+  
+  .tdroite3_3
+  {
+    width: 300px;
+    fill: #6a696e;
+  }
+  .tgauche3_3
+  {
+    width: 300px;
+    fill: #6a696e;
+  }
 
       /* --- menu4 ---*/
       .menu4
@@ -189,14 +272,149 @@ body {
   background-color: #fdfafc;
   font-family: 'Handlee', cursive;
 }
-  #tdroite4
+.menu__header4{
+
+ background: linear-gradient(to bottom right, #3E923A 30%, #BEFF7F 80%);
+ 
+}
+.tdroite4
+{
+  width: 300px;
+  fill: black ;
+}
+.tgauche4
+{
+  width: 300px;
+  fill: black;
+}
+
+   /* ------------- responsive page principale avec 3 breackpoint                              ------------- */
+   
+   @media all and (max-width: 1200px)
+   {
+     body{
+       display: flex;
+       flex-direction: column;
+     }
+   
+     .block , .containt{
+       flex-direction: column;
+       text-align: center;
+     }
+     .block__item__menu2
+    {
+      margin-bottom: 0px;
+    }
+    
+    .menu1, .menu2, .menu3,.menu4
+    {
+      border: 2px rgb(119, 116, 116) solid;
+      margin : 80px 80px 150px 80px;
+      padding: 30px;
+      font-size: 15px;
+  
+    }
+     
+     .prochainement
+       {
+
+           margin-left: 60px;
+           margin-right: 60px;  
+           margin-bottom: 90px;   
+       }
+       footer
+   {
+       display: flex;
+       flex-direction: column;
+       padding-top: 0px;
+      padding-bottom: 0px;
+      font-size: 15px;
+  } 
+ 
+  @media all and (max-width: 699px)
   {
-    width: 300px;
-    fill: black;
-  }
-  #tgauche4
+    body{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .block , .containt{
+     flex-direction: column;
+     text-align: center;
+   }
+   .block__item__menu2
+   {
+     margin-bottom: 0px;
+   }
+   .menu1, .menu2, .menu3,.menu4
+   {
+     border: 2px rgb(119, 116, 116) solid;
+     margin : 80px 80px 150px 80px;
+     padding: 30px;
+     font-size: 15px;
+ 
+   }
+    .prochainement
+      {
+
+          margin-left: 60px;
+          margin-right: 60px; 
+          margin-bottom: 90px;    
+      }
+      footer
+     {
+      display: flex;
+      flex-direction: column;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      font-size: 15px;
+     }   
+  }      
+    @media all and (max-width: 499px)
+    {
+      body{
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .block , .containt{
+       flex-direction: column;
+       text-align: center;
+     }
+     .block__item__menu2
+     {
+       margin-bottom: 0px;
+     }
+     .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4 
+     {
+       font-size: 15px;
+       padding: 150px 50px 150px 50px;
+     }   
+      .prochainement
+        {
+            background-color: rgb(18, 114, 77);
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-bottom: 60px; 
+            
+        }
+        footer
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 15px;
+        
+    }
+    .menu1, .menu2, .menu3,.menu4
   {
-    width: 300px;
-    fill: black;
+    border: 2px rgb(119, 116, 116) solid;
+    margin : 80px 80px 150px 80px;
+    padding: 30px;
+    font-size: 15px;
+
   }
+   }
+   
   /*# sourceMappingURL=main.css.map */
