@@ -68,7 +68,7 @@ body {
           
           background-color: #fcebf5;
           font-family: 'Satisfy', cursive;
-          padding-bottom: 200px;
+          
           padding: 262px 180px 200px 180px;
         }
         
@@ -147,6 +147,11 @@ body {
     align-items: center;
     justify-content: space-between;
   }
+  i
+  {
+   
+   color: rgb(187, 67, 67);
+  }
  /* --- menu1 ---*/
  
  .menu1
@@ -165,6 +170,17 @@ body {
   {
     width: 300px;
     fill: black;
+  }
+  .menu__footer
+  {
+    text-align: center;
+    
+  }
+  .menu__footer img{
+    width: 80px
+  }
+  #svg26{
+    width:20px;
   }
   /* --- menu2 ---*/
   .menu2
@@ -280,12 +296,12 @@ body {
 .tdroite4
 {
   width: 300px;
-  fill: black ;
+  fill: #3E923A;
 }
 .tgauche4
 {
   width: 300px;
-  fill: black;
+  fill: #3E923A;
 }
 
    /* ------------- responsive page principale avec 3 breackpoint                              ------------- */
@@ -314,6 +330,7 @@ body {
       font-size: 15px;
   
     }
+   
      
      .prochainement
        {
@@ -354,6 +371,7 @@ body {
      font-size: 15px;
  
    }
+  
     .prochainement
       {
 
@@ -389,7 +407,16 @@ body {
      {
        font-size: 15px;
        padding: 150px 50px 150px 50px;
-     }   
+     } 
+     .menu1, .menu2, .menu3,.menu4
+     {
+       border: 2px rgb(119, 116, 116) solid;
+       margin : 80px 80px 150px 80px;
+       padding: 30px;
+       font-size: 15px;
+   
+     }
+     
       .prochainement
         {
             background-color: rgb(18, 114, 77);
@@ -407,14 +434,7 @@ body {
         font-size: 15px;
         
     }
-    .menu1, .menu2, .menu3,.menu4
-  {
-    border: 2px rgb(119, 116, 116) solid;
-    margin : 80px 80px 150px 80px;
-    padding: 30px;
-    font-size: 15px;
-
+   
   }
-   }
    
   /*# sourceMappingURL=main.css.map */
