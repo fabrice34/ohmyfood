@@ -53,20 +53,27 @@ body {
   }
   
  
-  
+
+/* animation zoom sur image */  
   .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4 {
-    border: 2px rgb(119, 116, 116) solid;
-    
+    border: 2px rgb(119, 116, 116) solid;  
     margin: 40px 20px 40px 20px;
     text-align: center;
     align-items: stretch;
     box-shadow: 2px 2px 2px rgb(119, 116, 116);
+
     opacity: 1;  
-	transition-property: opacity;
-  transition-duration: 400ms;
+	  transition-property: opacity;
+    transition-duration: 400ms;
  
   }
- 
+  .block__item__menu1 :hover  ,.block__item__menu2 :hover, .block__item__menu3 :hover, .block__item__menu4 :hover 
+  {        
+   opacity:0.5;
+   transition-property: transform;
+   transition: opacity 400ms;
+   transform:scale(1.5);
+  }
   
         .block__item__menu3 {
           
@@ -80,7 +87,7 @@ background: -moz-linear-gradient(left,  #241672 0%, #4a4277 50%, #6a696e 100%); 
 background-clip: text;
 -webkit-background-clip: text;
         }
-        
+       
         .block__item__menu1 {
           background-color: #fcc7e8;
           font-family: 'Devonshire', cursive;
@@ -116,13 +123,7 @@ background-clip: text;
 -webkit-background-clip: text;         
         }
         
-        .block__item__menu1 :hover  ,.block__item__menu2 :hover, .block__item__menu3 :hover, .block__item__menu4 :hover 
-        {        
-         opacity:0.5;
-         transition-property: transform;
-         transition: opacity 400ms;
-         transform:scale(1.5);
-        }
+        
   .prochainement
    {
       border: 2px #070808 solid;
@@ -131,8 +132,67 @@ background-clip: text;
       margin-left: 330px;
       margin-right: 330px;
       margin-bottom: 100px;
-          
+      display: flex;
+      align-items: center;
+      padding-left: 200px;
     }
+/* animation points de suspension s’animent progressivement */
+    .prochainement div h2::after
+    {
+    
+      content: "...";	
+      display: inline-block;
+      font-size: 30px;
+      overflow: hidden;
+      animation-name: supensions;
+      -webkit-animation-name: suspensions;
+      animation-duration: 1.2s ;
+      -webkit-animation-duration: 1.2s;
+      animation-timing-function: step(4,end);
+      -webkit-animation-timing-function: steps(4,end);
+      animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      /*-webkit-animation: suspensions steps(4,end) 1.2s infinite;*/
+    }
+
+    @keyframes suspensions
+{
+	0%
+	{
+		width: 0;
+	}
+
+
+	50%
+	{
+		width: 20px;
+	}
+
+
+	100%
+	{
+		width: 40px;
+	}
+}
+
+@-webkit-keyframes suspensions
+{
+	0%
+	{
+		width: 0;
+	}
+
+	50%
+	{
+		width: 20px;
+	}
+
+	100%
+	{
+		width: 40px;
+	}
+}
+      
     footer {
       font-size: 30px;
       border: 2px #070808 solid;
@@ -157,6 +217,77 @@ background-clip: text;
      height: auto;
             }
   
+ 
+ /* animation effet wiggle */
+ footer div:hover
+ {
+   animation-name: secousses;
+   -webkit-animation-name:secousses;
+   animation-duration: 0,2s;
+   -webkit-animation-duration: 0.2s;
+   animation-iteration-count: infinite;
+   -webkit-animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   -webkit-animation-timing-function: linear;	 
+ }
+ 
+ @keyframes secousses
+ {
+   0%
+   {
+     -webkit-transform: translateY(0px) ;
+   }
+ 
+   10%
+   {
+     -webkit-transform: translateY(1px) ;
+   }
+ 
+   20%
+   {
+     -webkit-transform: translateY(2px) ;
+   }
+ 
+   30%
+   {
+     -webkit-transform: translateY(2px) ;
+   }
+ 
+   40%
+   {
+     -webkit-transform: translateY(1px);
+   }
+ 
+   50%
+   {
+     -webkit-transform: translateY(0px) ;
+   }
+ 
+   60%
+   {
+     -webkit-transform: translateY(-1px) ;
+   }
+ 
+   70%
+   {
+     -webkit-transform: translateY(-2px) ;
+   }
+ 
+   80%
+   {
+     -webkit-transform: translateY(-2px);
+   }
+ 
+   90%
+   {
+     -webkit-transform: translateY(-1px) ;
+   }
+ 
+   100%
+   {
+     -webkit-transform: translateY(0px);
+   }
+ }
 
   /* ------------- css des autres pages html (menus) ------------- */
   .menu1, .menu2, .menu3,.menu4
@@ -180,12 +311,14 @@ background-clip: text;
     align-items: center;
     justify-content: space-between;
   }
+ 
+  /* --- menu1 ---*/
   i
   {
    
    color: rgb(187, 67, 67);
   }
- /* --- menu1 ---*/
+
  
  .menu1
 {
@@ -213,12 +346,31 @@ background-clip: text;
   .menu__footer img{
     width: 80px
   }
-  
+  /* animation sur les titres des catégories surligné de quche à droite */
+  h3{
+    position: relative;
+  }
+  h3:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    opacity: 0%;
+    transition: all 500ms ease-in-out;
+  }
+  h3:hover:after {
+    width: 100%;
+    opacity: 1;
+  }
   /* --- menu2 ---*/
   .menu2
 {
   background-color: #e9dae3;
   font-family: 'Eagle Lake', cursive;
+  font-size: 15px;
 }
 .menu__header2 h2
 {
@@ -387,7 +539,8 @@ background-clip: text;
 
            margin-left: 60px;
            margin-right: 60px;  
-           margin-bottom: 110px;   
+           margin-bottom: 110px; 
+           padding-left: 300px;  
        }
        footer
    {
@@ -427,7 +580,8 @@ background-clip: text;
 
           margin-left: 60px;
           margin-right: 60px; 
-          margin-bottom: 110px;    
+          margin-bottom: 110px;  
+          padding-left: 120px;  
       }
       footer
      {
@@ -466,7 +620,10 @@ background-clip: text;
        font-size: 15px;
    
      }
-     
+     .tdroite1, .tgauche1
+     {
+       width: 0px;
+     }
       .prochainement
         {
             background-color: rgb(18, 114, 77);
@@ -474,6 +631,7 @@ background-clip: text;
             margin-right: 60px;
             margin-bottom: 100px; 
             font-size: 15px;
+            padding-left: 80px;
         }
         footer
     {
