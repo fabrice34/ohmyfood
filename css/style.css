@@ -311,6 +311,27 @@ background-clip: text;
     align-items: center;
     justify-content: space-between;
   }
+
+  /* animation sur les titres des catégories surligné de quche à droite */
+  h3{
+    position: relative;
+  }
+  h3:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    opacity: 0%;
+    transition: all 500ms ease-in-out;
+  }
+  h3:hover:after {
+    width: 100%;
+    opacity: 1;
+  }
+  
  
   /* --- menu1 ---*/
   i
@@ -346,26 +367,7 @@ background-clip: text;
   .menu__footer img{
     width: 80px
   }
-  /* animation sur les titres des catégories surligné de quche à droite */
-  h3{
-    position: relative;
-  }
-  h3:after {
-    content: "";
-    position: absolute;
-    height: 3px;
-    background-color: black;
-    left: 0;
-    bottom: 0;
-    width: 0%;
-    opacity: 0%;
-    transition: all 500ms ease-in-out;
-  }
-  h3:hover:after {
-    width: 100%;
-    opacity: 1;
-  }
-  /* --- menu2 ---*/
+   /*--- menu2 ---*/
   .menu2
 {
   background-color: #e9dae3;
