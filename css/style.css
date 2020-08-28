@@ -69,17 +69,17 @@ body {
   }
   .block__item__menu1 :hover  ,.block__item__menu2 :hover, .block__item__menu3 :hover, .block__item__menu4 :hover 
   {        
-   opacity:0.8;
+   opacity:0.7;
    transition-property: transform;
    transition: opacity 400ms;
-   transform:scale(1.05) ;
+   transform:scale(1.15) ;
   }
   
         .block__item__menu3
          {  
           background-color: #fcebf5;
           font-family: 'Satisfy', cursive;  
-          padding: 262px 190px 204px 190px;
+          padding: 262px 190px 206px 190px;
           word-spacing: -2px;
         }
         .block__item__menu3 p
@@ -531,6 +531,7 @@ background-clip: text;
       font-size: 20px;
     }   
 }      
+
 @media all and (max-width: 499px)
     {
     body
