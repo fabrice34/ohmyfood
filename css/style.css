@@ -73,7 +73,7 @@ body {
    opacity:0.8;
    transition-property: transform;
    transition: opacity 400ms;
-   transform:scale(1.15);
+   transform:scale(1.05);
   }
   
         .block__item__menu3
@@ -81,6 +81,7 @@ body {
           background-color: #fcebf5;
           font-family: 'Satisfy', cursive;  
           padding: 262px 190px 204px 190px;
+          word-spacing: -2px;
         }
         .block__item__menu3 p
         {
@@ -117,6 +118,7 @@ body {
         -webkit-text-fill-color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
+        word-spacing: -4px;
         }
 
         .block__item__menu4 {
