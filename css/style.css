@@ -66,14 +66,13 @@ body {
     opacity: 1;  
 	  transition-property: opacity;
     transition-duration: 400ms;
- 
   }
   .block__item__menu1 :hover  ,.block__item__menu2 :hover, .block__item__menu3 :hover, .block__item__menu4 :hover 
   {        
    opacity:0.8;
    transition-property: transform;
    transition: opacity 400ms;
-   transform:scale(1.05);
+   transform:scale(1.05) ;
   }
   
         .block__item__menu3
@@ -312,7 +311,7 @@ body {
   h3:after {
     content: "";
     position: absolute;
-    height: 3px;
+    height: 6px;
     background-color: black;
     left: 0;
     bottom: 0;
