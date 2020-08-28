@@ -74,23 +74,7 @@ body {
    transition: opacity 400ms;
    transform:scale(1.15) ;
   }
-  
-        .block__item__menu3
-         {  
-          background-color: #fcebf5;
-          font-family: 'Satisfy', cursive;  
-          padding: 262px 190px 206px 190px;
-          word-spacing: -2px;
-        }
-        .block__item__menu3 p
-        {
-          /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#241672+26,4a4277+53,677569+77 */
-          background: #241672; /* Old browsers */
-          background: -moz-linear-gradient(left,  #241672 26%, #4a4277 53%, #677569 77%); /* FF3.6-15 */background: -webkit-linear-gradient(left,  #241672 26%,#4a4277 53%,#677569 77%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to right,  #241672 26%,#4a4277 53%,#677569 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#241672', endColorstr='#677569',GradientType=1 ); /* IE6-9 */
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-          -webkit-background-clip: text;
-        }
+         
        
         .block__item__menu1 {
           background-color: #fcc7e8;
@@ -119,6 +103,23 @@ body {
         -webkit-background-clip: text;
         word-spacing: -4px;
         }
+        
+        .block__item__menu3
+        {  
+         background-color: #fcebf5;
+         font-family: 'Satisfy', cursive;  
+         padding: 262px 190px 206px 190px;
+         word-spacing: -2px;
+       }
+       .block__item__menu3 p
+       {
+         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#241672+26,4a4277+53,677569+77 */
+         background: #241672; /* Old browsers */
+         background: -moz-linear-gradient(left,  #241672 26%, #4a4277 53%, #677569 77%); /* FF3.6-15 */background: -webkit-linear-gradient(left,  #241672 26%,#4a4277 53%,#677569 77%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to right,  #241672 26%,#4a4277 53%,#677569 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#241672', endColorstr='#677569',GradientType=1 ); /* IE6-9 */
+         -webkit-text-fill-color: transparent;
+         background-clip: text;
+         -webkit-background-clip: text;
+       }
 
         .block__item__menu4 {
           background-color: #fdfafc;
