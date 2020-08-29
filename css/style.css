@@ -149,23 +149,26 @@ body {
       align-items: center;
       padding-left: 200px;
     }
+
 /* animation points de suspension s’animent progressivement */
-    .prochainement div h2::after
-    {    
-      content: "...";	
-      display: inline-block;
-      font-size: 30px;
-      overflow: hidden;
-      animation-name: supensions;
-      -webkit-animation-name: suspensions;
-      animation-duration: 1.2s ;
-      -webkit-animation-duration: 1.2s;
-      animation-timing-function: step(4,end);
-      -webkit-animation-timing-function: steps(4,end);
-      animation-iteration-count: infinite;
-      -webkit-animation-iteration-count: infinite;
-      /*-webkit-animation: suspensions steps(4,end) 1.2s infinite;*/
-    }
+   .prochainement div h2::after
+   {    
+     content: "...";	
+     display: inline-block;
+     vertical-align: bottom;
+     font-size: 30px;
+     overflow: hidden;
+     animation-name: supensions;
+     -webkit-animation-name: suspensions;
+     animation-duration: 1.2s ;
+     -webkit-animation-duration: 1.2s;
+     animation-timing-function: step(4,end);
+     -webkit-animation-timing-function: steps(4,end);
+     animation-iteration-count: infinite;
+     -webkit-animation-iteration-count: infinite;
+     /*-webkit-animation: suspensions steps(4,end) 1.2s infinite;*/
+   }
+    
     @keyframes suspensions
 {
 	0%
