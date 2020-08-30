@@ -139,20 +139,21 @@ body {
         
   .prochainement
    {
+      position: relative;
       border: 2px #070808 solid;
       border-radius: 10px;
       background-color: #12724d;
-      margin-left: 330px;
-      margin-right: 330px;
+      margin-left: 370px;
+      margin-right: 370px;
       margin-bottom: 100px;
-      display: flex;
-      align-items: center;
-      padding-left: 200px;
+      display: flex;  
+      justify-content: space-evenly;
     }
 
 /* animation points de suspension s’animent progressivement */
    .prochainement div h2::after
-   {    
+   { 
+     position: absolute;   
      content: "...";	
      display: inline-block;
      vertical-align: bottom;
@@ -431,7 +432,7 @@ background-clip: text;
 .tdroite3_3,  .tgauche3_3
 {
   width: 300px;
-  fill: #c1c0c4;
+  fill: #677569;
 }
  
 /* --------------------------------                menu4                   ---------------------------- ---*/
@@ -482,10 +483,10 @@ background-clip: text;
     }       
   .prochainement
     {
-      margin-left: 60px;
-      margin-right: 60px;  
+      margin-left: 200px;
+      margin-right: 200px;  
       margin-bottom: 110px; 
-      padding-left: 300px;  
+       
     }
   footer
     {
@@ -494,8 +495,14 @@ background-clip: text;
       padding-top: 20px;
       padding-bottom: 20px;
       font-size: 20px;
-    } 
+    }
+    .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
+    {
+      width: 150px;
+    }
+    
 }
+
 
 @media all and (max-width: 699px)
 {
@@ -521,10 +528,10 @@ background-clip: text;
     }  
     .prochainement
     {
-      margin-left: 60px;
-      margin-right: 60px; 
+      margin-left: 100px;
+      margin-right: 100px; 
       margin-bottom: 110px;  
-      padding-left: 120px;  
+        
     }
     footer
     {
@@ -533,17 +540,22 @@ background-clip: text;
       padding-top: 20px;
       padding-bottom: 20px;
       font-size: 20px;
-    }   
+    } 
+    .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
+    {
+      width: 80px;
+    }  
 }      
 
-@media all and (max-width: 499px)
+@media all and (max-width: 599px)
     {
     body
     {
       display: flex;
       flex-direction: column;
     }    
-    .block , .containt{
+    .block , .containt
+    {
       flex-direction: column;
       text-align: center;
     }
@@ -553,7 +565,7 @@ background-clip: text;
     }
     .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4 
      {
-      font-size: 15px;
+      font-size: 20px;
       padding: 150px 50px 150px 50px;
      } 
      .menu1, .menu2, .menu3,.menu4
@@ -574,7 +586,7 @@ background-clip: text;
        margin-right: 60px;
        margin-bottom: 100px; 
        font-size: 15px;
-       padding-left: 80px;
+       
       }
       footer
       {
@@ -582,8 +594,7 @@ background-clip: text;
        flex-direction: column;
        padding-top: 20px;
        padding-bottom: 20px;      
-       font-size: 20px;
-       position: relative;
+       font-size: 20px;     
        padding-left: 0px;
 
        position: fixed;
@@ -591,6 +602,10 @@ background-clip: text;
        width: 95%;
        height: auto;        
     } 
+    .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
+    {
+       width: 60px;
+    }
   }
    
   /*# sourceMappingURL=main.css.map */
