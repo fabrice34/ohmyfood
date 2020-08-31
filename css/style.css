@@ -8,8 +8,8 @@ body
  {
     width: 100%;
     height: auto;
-    -webkit-box-sizing: content-box;
-            box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
     background-color: #e6eeec;
     color: #000103;
     padding: 0px;
@@ -54,7 +54,7 @@ body
             font-size:20px;        
   }
   .tm
-  {text-align: center; font-size: 30px; font-weight: bolder; position: relative; top: 80px;}
+  {text-align: center; font-size: 50px; font-weight: bolder; position: relative; top: 80px;}
  
 
 /* animation zoom sur image */  
@@ -466,6 +466,7 @@ background-clip: text;
     {
       display: flex;
       flex-direction: column;
+      
     }
    
   .block , .containt 
@@ -476,6 +477,7 @@ background-clip: text;
     .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4
     {
       margin: 40px 80px 40px 80px;
+      font-size:50px;
     }   
   .block__item__menu2
     {
@@ -486,7 +488,7 @@ background-clip: text;
       border: 2px rgb(119, 116, 116) solid;
       margin : 80px 80px 220px 80px;
       padding: 30px;
-      font-size: 15px;  
+      font-size: 30px;  
     }       
   .prochainement
     {
@@ -521,6 +523,11 @@ background-clip: text;
      flex-direction: column;
      text-align: center;
     }
+    .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4
+    {
+      
+      font-size:50px;
+    }   
     .block__item__menu2
     {
       margin-bottom: 0px;
@@ -530,7 +537,7 @@ background-clip: text;
       border: 2px #777474 solid;
       margin : 80px 80px 220px 80px;
       padding: 30px;
-      font-size: 15px;
+      font-size: 30px;
     }  
     .prochainement
     {
@@ -559,6 +566,7 @@ background-clip: text;
     {
       display: flex;
       flex-direction: column;
+      font-size: 60px;
     }    
     .block , .containt
     {
@@ -571,16 +579,19 @@ background-clip: text;
     }
     .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4 
      {
-      font-size: 20px;
+      
       padding: 150px 50px 150px 50px;
       margin: 40px 40px 40px 40px;
+      margin: 40px 80px 40px 80px;
+      font-size:50px;
+    }  
      } 
      .menu1, .menu2, .menu3,.menu4
      {
       border: 2px rgb(119, 116, 116) solid;
       margin : 80px 80px 220px 80px;
       padding: 30px;
-      font-size: 15px;   
+      font-size: 30px;   
      }
      .tm
   { font-size: 20px;}
@@ -608,7 +619,7 @@ background-clip: text;
 
        position: fixed;
        bottom: 0px;
-       width: 95%;
+       width: 100%;
        height: auto;        
     } 
     .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
