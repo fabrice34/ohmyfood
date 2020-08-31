@@ -81,8 +81,7 @@ body
         .block__item__menu1 {
           background-color: #FFE1E1;
           font-family: 'Devonshire', cursive;
-          padding: 200px 100px 200px 100px;
-          
+          padding: 140px 90px 140px 90px;        
         }
         .block__item__menu1 p
         {
@@ -93,7 +92,7 @@ body
         {
           background-color: #ECF3F4;
           font-family: 'Eagle Lake', cursive;
-          padding: 200px 100px 200px 100px;          
+          padding: 140px 90px 140px 90px;          
         }
         .block__item__menu2 p
         {
@@ -106,11 +105,11 @@ body
         word-spacing: -4px;
         }
         
-        .block__item__menu3
+       .block__item__menu3
         {  
          background-color: #FCF5FE;
          font-family: 'Satisfy', cursive;  
-         padding: 262px 140px 204px 140px;
+         padding: 202px 130px 144px 130px;
          word-spacing: -2px;
        }
        .block__item__menu3 p
@@ -124,10 +123,10 @@ body
        }
 
         .block__item__menu4
-         {
+        {
           background-color: #FEFEFE;
           font-family: 'Handlee', cursive;           
-          padding: 204px 130px 220px 130px;              
+          padding: 144px 120px 160px 120px;              
         }
         .block__item__menu4 p
         {
@@ -472,7 +471,11 @@ background-clip: text;
     {
       flex-direction: column;
       text-align: center;
-    }    
+    }
+    .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4
+    {
+      margin: 40px 60px 40px 60px;
+    }   
   .block__item__menu2
     {
       margin-bottom: 0px;  
@@ -488,8 +491,7 @@ background-clip: text;
     {
       margin-left: 200px;
       margin-right: 200px;  
-      margin-bottom: 110px; 
-       
+      margin-bottom: 110px;        
     }
   footer
     {
@@ -570,6 +572,7 @@ background-clip: text;
      {
       font-size: 20px;
       padding: 150px 50px 150px 50px;
+      margin: 40px 40px 40px 40px;
      } 
      .menu1, .menu2, .menu3,.menu4
      {
