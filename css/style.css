@@ -13,15 +13,19 @@ body
     background-color: #e6eeec;
     color: #000103;
     padding: 0px;
-    margin: 0px;  
+    margin: 0px;
+    align-items: center;
+   
   }
   
   body header, body footer, body .prochainement
   {
     color: #c2b611;
     text-align: center;
+    
   }
-  
+  body header
+  {padding-left: 600px;padding-right: 600px;}
   body 
   {
     font-family: Arial, Helvetica, sans-serif;
@@ -51,21 +55,30 @@ body
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-            font-size:41px;        
+            font-size:33px;        
   }
   .tm
   {text-align: center; font-size: 30px; font-weight: bolder; position: relative; top: 80px;}
  
-
+  .block__item__menu1 p ,.block__item__menu2 p, .block__item__menu3 p, .block__item__menu4 p
+  {
+font-size:25px;
+  } 
 /* animation zoom sur image */  
   .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4
  {
     border: 2px rgb(119, 116, 116) solid;  
-    margin: 40px 20px 40px 20px;
-    text-align: center;
-    align-items: stretch;
-    box-shadow: 2px 2px 2px rgb(119, 116, 116);
     
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 2px rgb(119, 116, 116);
+    width: 460px;
+    height: 600px;
+   margin: 40px 20px 40px 20px;
+
+
     opacity: 1;  
 	  transition-property: opacity;
     transition-duration: 400ms;
@@ -74,16 +87,15 @@ body
   {        
     opacity:0.7;
     transition-property: transform;
-    transition: opacity 400ms ease-in-out;
-    transform:scale(1.15) ;
+    transition: all 400ms ease;
+    transform:scale(1.04) ;
   }
          
        
         .block__item__menu1 {
           background-color: #FFE1E1;
           font-family: 'Devonshire', cursive;
-          padding: 100px 10px 100px 10px;  
-            
+        
         }
         .block__item__menu1 p
         {
@@ -94,7 +106,7 @@ body
         {
           background-color: #ECF3F4;
           font-family: 'Eagle Lake', cursive;
-          padding: 130px 10px 130px 10px;          
+                   
         }
         .block__item__menu2 p
         {
@@ -104,7 +116,7 @@ body
         -webkit-text-fill-color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
-        word-spacing: -10px;
+        word-spacing: -6px;
         
         }
         
@@ -112,7 +124,7 @@ body
         {  
          background-color: #FCF5FE;
          font-family: 'Satisfy', cursive;  
-         padding: 182px 80px 108px 80px;
+         
          word-spacing: -2px;
        }
        .block__item__menu3 p
@@ -129,7 +141,7 @@ body
         {
           background-color: #FEFEFE;
           font-family: 'Handlee', cursive;           
-          padding: 134px 80px 150px 80px;              
+                  
         }
         .block__item__menu4 p
         {
@@ -144,24 +156,25 @@ body
         
   .prochainement
    {
-    font-size:25px; 
-      position: relative;
+    font-size:20px; 
+      
       border: 2px #070808 solid;
       border-radius: 10px;
       background-color: #12724d;
-      margin-left: 200px;
-      margin-right: 200px;
-      margin-bottom: 150px;
+      margin-left: 400px;
+      margin-right: 400px;
+      margin-bottom: 100px;
       padding-top:0px;
       padding-bottom:0px;
       display: flex;  
       justify-content: space-evenly;
+      padding-left: 40px;padding-right: 40px;
     }
 
 /* animation points de suspension s’animent progressivement */
    .prochainement div h2::after
    { 
-     position: absolute;   
+      position: absolute;
      content: "...";	
      display: inline-block;
      vertical-align: bottom;
@@ -210,7 +223,7 @@ body
 }
       
   footer {
-      font-size: 41px;
+      font-size: 30px;
       border: 2px #070808 solid;
       background-color: #12724d;
       display: -webkit-box;
@@ -302,6 +315,7 @@ body
     border: 2px rgb(119, 116, 116) solid;
     margin : 100px 120px 200px 120px;
     padding:  40px  40px  80px  40px;
+   
     font-size: 30px;
 
   }
@@ -464,165 +478,191 @@ background-clip: text;
 }
 
    /* -------------                    responsive page principale avec 3 breackpoint               ------------- */
-   
-@media all and (max-width: 1200px)
-{
-  body
-    {
-      display: flex;
-      flex-direction: column;
-    }
-   
-  .block , .containt 
-    {
-      flex-direction: column;
-      text-align: center;
-    }
-    .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4
-    {
-      margin: 120px 60px 120px 60px;
-    }   
-  .block__item__menu2
-    {
-      margin-bottom: 0px;  
-    }    
-  .menu1, .menu2, .menu3,.menu4
-    {
-      border: 2px rgb(119, 116, 116) solid;
-      margin : 80px 80px 220px 80px;
-      padding: 30px;
-      font-size: 41px;  
-    }       
-  .prochainement
-    {
-      margin-left: 200px;
-      margin-right: 200px;  
-      margin-bottom: 240px;
-      font-size: 20px;        
-    }
-  footer
-    {
-      display: flex;
-      flex-direction: column;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      font-size: 41px;
-    }
-    .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
-    {
-      width: 150px;
-    }
-    
-}
-
-
-@media all and (max-width: 699px)
-{
-    body
-    {
-      display: flex;
-      flex-direction: column;
-    }
-    .block , .containt{
-     flex-direction: column;
-     text-align: center;
-    }
-    .block__item__menu2
-    {
-      margin-bottom: 0px;
-    }
-    .menu1, .menu2, .menu3,.menu4
-    {
-      border: 2px #777474 solid;
-      margin : 80px 80px 220px 80px;
-      padding: 30px;
-      font-size: 15px;
-    }  
-    .prochainement
-    {
-      margin-left: 100px;
-      margin-right: 100px; 
-      margin-bottom: 310px;  
-      font-size: 20px;
+   @media all and (max-width: 1200px)
+   {
+     body
+       {
+         display: flex;
+         flex-direction: column;
+          
          
-    }
-    footer
-    {
-      display: flex;
-      flex-direction: column;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      font-size: 41px;
-    } 
-    .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
-    {
-      width: 80px;
-    }  
-}      
-
-@media all and (max-width: 599px)
-    {
-    body
-    {
-      display: flex;
-      flex-direction: column;
-    }    
-    .block , .containt
-    {
-      flex-direction: column;
-      text-align: center;
-    }
-    .block__item__menu2
-    {
-      margin-bottom: 0px;
-    }
-    .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4 
-     {
-      font-size: 20px;
-      padding: 150px 50px 150px 50px;
-      margin: 40px 40px 40px 40px;
-     } 
-     .menu1, .menu2, .menu3,.menu4
-     {
-      border: 2px rgb(119, 116, 116) solid;
-      margin : 80px 80px 220px 80px;
-      padding: 30px;
-      font-size: 41px;   
-     }
-     .tm
-  { font-size: 20px;}
-     .tdroite1, .tgauche1
-     {
-       width: 0px;
-     }
-     .prochainement
-      {
-       background-color: rgb(18, 114, 77);
-       margin-left: 60px;
-       margin-right: 60px;
-       margin-bottom: 100px; 
-       font-size: 15px;
+       }
+      
+     .block, .containt
+       {
+         flex-direction: column;
+         text-align: center;
+         align-items: center;
+       }
        
-      }
-      footer
-      {
-       display: flex;
-       flex-direction: column;
-       padding-top: 20px;
-       padding-bottom: 20px;      
-       font-size: 20px;     
-       padding-left: 0px;
-       font-size:20px; 
-
-       position: fixed;
-       bottom: 0px;
-       width: 100%;
-       height: auto;        
-    } 
-    .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
-    {
-       width: 60px;
-    }
-  }
+       
+       .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4
+       {
+         
+         width: 500px;
+         height: 600px;
+         font-size: 41px;     
+       }   
+       .block__item__menu1 p ,.block__item__menu2 p, .block__item__menu3 p, .block__item__menu4 p
+       {
+    font-size:25px;
+       } 
+      
+     .menu1, .menu2, .menu3,.menu4
+       {
+         border: 2px rgb(119, 116, 116) solid;
+         margin : 80px 80px 220px 80px;
+         padding: 30px;
+         font-size: 41px;  
+       }       
+     .prochainement
+       {
+         
+         margin-left: 400px;
+         margin-right: 400px;  
+         margin-bottom: 135px;
+         font-size: 20px;
+         
+        
+                
+       }
+     footer
+       {
+         display: flex;
+         flex-direction: column;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         font-size: 30px;
+       }
+       .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
+       {
+         width: 150px;
+       }
+       
+   }
+   
+   
+   @media all and (max-width: 699px)
+   {
+       body
+       {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+       }
+       .block , .containt{
+        flex-direction: column;
+        text-align: center;
+       
+       }
+       .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4
+       {  
+         width: 500px;
+         height: 600px;     
+       } 
+       .block__item__menu1 p ,.block__item__menu2 p, .block__item__menu3 p, .block__item__menu4 p
+       {
+    font-size:25px;
+       } 
+       .menu1, .menu2, .menu3,.menu4
+       {
+         border: 2px #777474 solid;
+         margin : 80px 80px 220px 80px;
+         padding: 30px;
+         font-size: 15px;
+       }  
+       .prochainement
+       {
+         margin-left: 400px;
+         margin-right: 400px; 
+         margin-bottom: 150px;  
+         font-size: 20px;
+     
+       }
+       footer
+       {
+         display: flex;
+         flex-direction: column;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         font-size: 30px;
+       } 
+       .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
+       {
+         width: 80px;
+       }  
+   }      
+   
+   @media all and (max-width: 599px)
+       {
+       body
+       {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+       }    
+       .block , .containt
+       {
+         flex-direction: column;
+         text-align: center;
+         font-size:38px;
+         align-items: center;
+       }
+       
+       .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4 
+        {
+       
+         width: 300px;
+         height: 400px;
+         margin-bottom: 80px;
+        } 
+        .block__item__menu1 p ,.block__item__menu2 p, .block__item__menu3 p, .block__item__menu4 p
+        {
+     font-size:25px;
+        } 
+        .menu1, .menu2, .menu3,.menu4
+        {
+         border: 2px rgb(119, 116, 116) solid;
+         margin : 80px 80px 220px 80px;
+         padding: 30px;
+         font-size: 20px;   
+        }
+        .tm
+     { font-size: 30px;}
+        .tdroite1, .tgauche1
+        {
+          width: 0px;
+        }
+        .prochainement
+         {
+          background-color: rgb(18, 114, 77);
+          margin-left: 100px;
+          margin-right: 100px;
+          margin-bottom: 160px;
+          
+          font-size: 15px;
+          
+         }
+         footer
+         {
+          display: flex;
+          flex-direction: column;
+          padding-top: 20px;
+          padding-bottom: 20px;      
+          font-size: 20px;     
+          padding-left: 0px;
+          font-size:20px; 
+   
+          position: fixed;
+          bottom: 0px;
+          width: 100%;
+          height: auto;        
+       } 
+       .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
+       {
+          width: 60px;
+       }
+     }
+   
    
   /*# sourceMappingURL=main.css.map */
