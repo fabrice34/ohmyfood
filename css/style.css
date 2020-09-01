@@ -51,7 +51,7 @@ body
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-            font-size:20px;        
+            font-size:41px;        
   }
   .tm
   {text-align: center; font-size: 30px; font-weight: bolder; position: relative; top: 80px;}
@@ -82,7 +82,8 @@ body
         .block__item__menu1 {
           background-color: #FFE1E1;
           font-family: 'Devonshire', cursive;
-          padding: 140px 90px 140px 90px;        
+          padding: 100px 10px 100px 10px;  
+            
         }
         .block__item__menu1 p
         {
@@ -93,7 +94,7 @@ body
         {
           background-color: #ECF3F4;
           font-family: 'Eagle Lake', cursive;
-          padding: 140px 90px 140px 90px;          
+          padding: 130px 10px 130px 10px;          
         }
         .block__item__menu2 p
         {
@@ -103,14 +104,15 @@ body
         -webkit-text-fill-color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
-        word-spacing: -4px;
+        word-spacing: -10px;
+        
         }
         
        .block__item__menu3
         {  
          background-color: #FCF5FE;
          font-family: 'Satisfy', cursive;  
-         padding: 202px 130px 144px 130px;
+         padding: 182px 90px 108px 90px;
          word-spacing: -2px;
        }
        .block__item__menu3 p
@@ -127,7 +129,7 @@ body
         {
           background-color: #FEFEFE;
           font-family: 'Handlee', cursive;           
-          padding: 144px 120px 160px 120px;              
+          padding: 134px 90px 150px 90px;              
         }
         .block__item__menu4 p
         {
@@ -142,13 +144,16 @@ body
         
   .prochainement
    {
+    font-size:25px; 
       position: relative;
       border: 2px #070808 solid;
       border-radius: 10px;
       background-color: #12724d;
-      margin-left: 400px;
-      margin-right: 400px;
-      margin-bottom: 100px;
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-bottom: 150px;
+      padding-top:0px;
+      padding-bottom:0px;
       display: flex;  
       justify-content: space-evenly;
     }
@@ -205,7 +210,7 @@ body
 }
       
   footer {
-      font-size: 30px;
+      font-size: 41px;
       border: 2px #070808 solid;
       background-color: #12724d;
       display: -webkit-box;
@@ -475,7 +480,7 @@ background-clip: text;
     }
     .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4
     {
-      margin: 40px 60px 40px 60px;
+      margin: 120px 60px 120px 60px;
     }   
   .block__item__menu2
     {
@@ -486,13 +491,14 @@ background-clip: text;
       border: 2px rgb(119, 116, 116) solid;
       margin : 80px 80px 220px 80px;
       padding: 30px;
-      font-size: 15px;  
+      font-size: 41px;  
     }       
   .prochainement
     {
       margin-left: 200px;
       margin-right: 200px;  
-      margin-bottom: 110px;        
+      margin-bottom: 240px;
+      font-size: 20px;        
     }
   footer
     {
@@ -500,7 +506,7 @@ background-clip: text;
       flex-direction: column;
       padding-top: 20px;
       padding-bottom: 20px;
-      font-size: 20px;
+      font-size: 41px;
     }
     .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
     {
@@ -536,8 +542,9 @@ background-clip: text;
     {
       margin-left: 100px;
       margin-right: 100px; 
-      margin-bottom: 110px;  
-        
+      margin-bottom: 310px;  
+      font-size: 20px;
+         
     }
     footer
     {
@@ -545,7 +552,7 @@ background-clip: text;
       flex-direction: column;
       padding-top: 20px;
       padding-bottom: 20px;
-      font-size: 20px;
+      font-size: 41px;
     } 
     .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
     {
@@ -580,7 +587,7 @@ background-clip: text;
       border: 2px rgb(119, 116, 116) solid;
       margin : 80px 80px 220px 80px;
       padding: 30px;
-      font-size: 15px;   
+      font-size: 41px;   
      }
      .tm
   { font-size: 20px;}
@@ -605,6 +612,7 @@ background-clip: text;
        padding-bottom: 20px;      
        font-size: 20px;     
        padding-left: 0px;
+       font-size:20px; 
 
        position: fixed;
        bottom: 0px;
