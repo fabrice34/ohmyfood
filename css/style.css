@@ -10,19 +10,17 @@ body
     height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #e6eeec;
     color: #000103;
     padding: 0px;
     margin: 0px;
-    align-items: center;
-   
+    overflow-x: hidden;
   }
-  
   body header, body footer, body .prochainement
   {
     color: #c2b611;
-    text-align: center;
-    
+    text-align: center;   
   }
   body header
   {padding-left: 600px;padding-right: 600px;}
@@ -30,8 +28,7 @@ body
   {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-  }
-   
+  }  
   header 
   {
     border: 2px #070808 solid;
@@ -42,7 +39,6 @@ body
   }
   a {text-decoration: none;}
   footer a, header a { color: #c2b611; }
-  
   .block {
     
     display: -webkit-box;
@@ -57,28 +53,24 @@ body
             justify-content: center;
             font-size:33px;        
   }
-  .tm
-  {text-align: center; font-size: 30px; font-weight: bolder; position: relative; top: 80px;}
- 
   .block__item__menu1 p ,.block__item__menu2 p, .block__item__menu3 p, .block__item__menu4 p
   {
 font-size:25px;
   } 
-/* animation zoom sur image */  
+
+/* animation zoom sur image                                         */  
   .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4
  {
     border: 2px rgb(119, 116, 116) solid;  
-    
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-    box-shadow: 2px 2px 2px rgb(119, 116, 116);
     width: 460px;
     height: 600px;
-   margin: 40px 20px 40px 20px;
-
-
+    margin: 40px 20px 40px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(119, 116, 116);
+  
     opacity: 1;  
 	  transition-property: opacity;
     transition-duration: 400ms;
@@ -88,14 +80,13 @@ font-size:25px;
     opacity:0.7;
     transition-property: transform;
     transition: all 400ms ease;
-    transform:scale(1.04) ;
+    transform:scale(1.12) ;
   }
          
        
         .block__item__menu1 {
           background-color: #FFE1E1;
           font-family: 'Devonshire', cursive;
-        
         }
         .block__item__menu1 p
         {
@@ -105,8 +96,7 @@ font-size:25px;
         .block__item__menu2
         {
           background-color: #ECF3F4;
-          font-family: 'Eagle Lake', cursive;
-                   
+          font-family: 'Eagle Lake', cursive;                   
         }
         .block__item__menu2 p
         {
@@ -116,15 +106,13 @@ font-size:25px;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
-        word-spacing: -6px;
-        
+        word-spacing: -6px;        
         }
         
        .block__item__menu3
         {  
          background-color: #FCF5FE;
-         font-family: 'Satisfy', cursive;  
-         
+         font-family: 'Satisfy', cursive;    
          word-spacing: -2px;
        }
        .block__item__menu3 p
@@ -140,8 +128,7 @@ font-size:25px;
         .block__item__menu4
         {
           background-color: #FEFEFE;
-          font-family: 'Handlee', cursive;           
-                  
+          font-family: 'Handlee', cursive;                             
         }
         .block__item__menu4 p
         {
@@ -156,8 +143,7 @@ font-size:25px;
         
   .prochainement
    {
-    font-size:20px; 
-      
+      font-size:20px;    
       border: 2px #070808 solid;
       border-radius: 10px;
       background-color: #12724d;
@@ -171,7 +157,7 @@ font-size:25px;
       padding-left: 40px;padding-right: 40px;
     }
 
-/* animation points de suspension s’animent progressivement */
+/* animation points de suspension s’animent progressivement               */
    .prochainement div h2::after
    { 
       position: absolute;
@@ -247,7 +233,7 @@ font-size:25px;
             }
   
  
- /* animation effet wiggle */
+ /* animation effet wiggle                                 */
   footer div:hover
   {
    animation-name: secousses;
@@ -309,15 +295,16 @@ font-size:25px;
    }
   }
 
-  /* -------------                     css des autres pages html (menus)                  ------------- */
-.menu1, .menu2, .menu3,.menu4
+  /* -------------                               css des 4 menus                                 ------------- */
+ 
+  .tm {text-align: center; font-size: 30px; font-weight: bolder; position: relative; top: 80px;}
+
+  .menu1, .menu2, .menu3,.menu4
   {
     border: 2px rgb(119, 116, 116) solid;
     margin : 100px 120px 200px 120px;
-    padding:  40px  40px  80px  40px;
-   
+    padding:  40px  40px  80px  40px;   
     font-size: 30px;
-
   }
 .menu__header ,.menu__header2 ,.menu__header3,.menu__header4, h3, .menu__footer
   {
@@ -331,7 +318,7 @@ font-size:25px;
     justify-content: space-between;
   }
 
-  /* animation sur les titres des catégories surligné de gauche à droite */
+  /* animation sur les titres des catégories surligné de gauche à droite     */
   h3{
     position: relative;
   }
@@ -352,7 +339,7 @@ font-size:25px;
   }
   
  
-/* -----------------------                            menu1                        ----------------------------*/
+/* -----------------------                               menu1                        ----------------------------*/
 i
 {
    
@@ -377,7 +364,7 @@ i
     width: 80px
   }
 
-   /*----------------------------------            menu2                ----------------------------------*/
+   /*----------------------------------                menu2                    ----------------------------------*/
 .menu2
 {
   background-color: #ECF3F4;
@@ -397,13 +384,11 @@ i
 {
   color: #57200f; 
 }
-
 .tdroite2_1, .tgauche2_1
 {
   width: 300px;
   fill: #57200f;
-}
-  
+}  
 .menu__platderesistance2
 {
   color: #591a61;
@@ -423,7 +408,7 @@ i
   fill: #241672;
 }
     
-    /* ------------------------------------     menu3               ---------------------------------------*/
+    /* ------------------------------------           menu3               ---------------------------------------*/
 .menu3
 {
   background-color: #FCF5FE;
@@ -443,9 +428,7 @@ background-clip: text;
 {
   width: 300px;
   fill: #241672;
-}
-  
-  
+} 
 .tdroite3_2, .tgauche3_2
 {
   width: 300px;
@@ -457,7 +440,7 @@ background-clip: text;
   fill: #677569;
 }
  
-/* --------------------------------                menu4                   ---------------------------- ---*/
+/* --------------------------------                menu4                         ---------------------------- ---*/
 .menu4
 {
   background-color: #FEFEFE;
@@ -477,14 +460,14 @@ background-clip: text;
   width: 300px;
 }
 
-   /* -------------                    responsive page principale avec 3 breackpoint               ------------- */
+/* ------------- responsive page principale avec 3 breackpoint pour ecran d'ordi, ecran tablette et ecran smatphone  ------------- */
    @media all and (max-width: 1200px)
    {
      body
        {
          display: flex;
          flex-direction: column;
-          
+         align-items: center; 
          
        }
       
@@ -501,30 +484,18 @@ background-clip: text;
          
          width: 500px;
          height: 600px;
-         font-size: 41px;     
+             
        }   
        .block__item__menu1 p ,.block__item__menu2 p, .block__item__menu3 p, .block__item__menu4 p
        {
-    font-size:25px;
-       } 
-      
-     .menu1, .menu2, .menu3,.menu4
-       {
-         border: 2px rgb(119, 116, 116) solid;
-         margin : 80px 80px 220px 80px;
-         padding: 30px;
-         font-size: 41px;  
-       }       
+    font-size:28px;
+       }      
      .prochainement
-       {
-         
+       { 
          margin-left: 400px;
          margin-right: 400px;  
          margin-bottom: 135px;
-         font-size: 20px;
-         
-        
-                
+         font-size: 20px;              
        }
      footer
        {
@@ -534,6 +505,13 @@ background-clip: text;
          padding-bottom: 20px;
          font-size: 30px;
        }
+       .menu1, .menu2, .menu3,.menu4
+       {
+         border: 2px rgb(119, 116, 116) solid;
+         margin : 80px 80px 220px 80px;
+         padding: 30px;
+         font-size: 41px;  
+       }  
        .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
        {
          width: 150px;
@@ -551,9 +529,8 @@ background-clip: text;
          align-items: center;
        }
        .block , .containt{
-        flex-direction: column;
-        text-align: center;
-       
+         flex-direction: column;
+         text-align: center;       
        }
        .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4
        {  
@@ -562,22 +539,14 @@ background-clip: text;
        } 
        .block__item__menu1 p ,.block__item__menu2 p, .block__item__menu3 p, .block__item__menu4 p
        {
-    font-size:25px;
-       } 
-       .menu1, .menu2, .menu3,.menu4
-       {
-         border: 2px #777474 solid;
-         margin : 80px 80px 220px 80px;
-         padding: 30px;
-         font-size: 15px;
-       }  
+         font-size:25px;
+       }        
        .prochainement
        {
          margin-left: 400px;
          margin-right: 400px; 
          margin-bottom: 150px;  
          font-size: 20px;
-     
        }
        footer
        {
@@ -586,6 +555,14 @@ background-clip: text;
          padding-top: 20px;
          padding-bottom: 20px;
          font-size: 30px;
+       } 
+
+       .menu1, .menu2, .menu3,.menu4
+       {
+         border: 2px #777474 solid;
+         margin : 80px 80px 220px 80px;
+         padding: 30px;
+         font-size: 20px;
        } 
        .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
        {
@@ -608,56 +585,47 @@ background-clip: text;
          font-size:38px;
          align-items: center;
        }
-       
        .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4 
         {
-       
-         width: 300px;
-         height: 400px;
-         margin-bottom: 80px;
+          width: 300px;
+          height: 400px;
+          margin-bottom: 80px;
         } 
         .block__item__menu1 p ,.block__item__menu2 p, .block__item__menu3 p, .block__item__menu4 p
         {
-     font-size:25px;
+          font-size:25px;
         } 
-        .menu1, .menu2, .menu3,.menu4
-        {
-         border: 2px rgb(119, 116, 116) solid;
-         margin : 80px 80px 220px 80px;
-         padding: 30px;
-         font-size: 20px;   
-        }
-        .tm
-     { font-size: 30px;}
-        .tdroite1, .tgauche1
-        {
-          width: 0px;
-        }
         .prochainement
          {
           background-color: rgb(18, 114, 77);
           margin-left: 100px;
           margin-right: 100px;
           margin-bottom: 160px;
-          
-          font-size: 15px;
-          
+          font-size: 15px;          
          }
          footer
          {
           display: flex;
           flex-direction: column;
           padding-top: 20px;
-          padding-bottom: 20px;      
-          font-size: 20px;     
-          padding-left: 0px;
-          font-size:20px; 
-   
+          padding-bottom: 20px;          
+          font-size: 20px; 
+
           position: fixed;
+          padding-left: 0px;
           bottom: 0px;
           width: 100%;
           height: auto;        
        } 
+
+       .menu1, .menu2, .menu3,.menu4
+       {
+        border: 2px rgb(119, 116, 116) solid;
+        margin : 80px 80px 220px 80px;
+        padding: 30px;
+        font-size: 20px;   
+       }
+       .tm  { font-size: 30px;}
        .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
        {
           width: 60px;
