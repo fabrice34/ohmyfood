@@ -8,22 +8,24 @@ body
  {
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #e6eeec;
     color: #000103;
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
   body header, body footer, body .prochainement
   {
     color: #c2b611;
     text-align: center;   
   }
-  body header
-  {padding-left: 600px;padding-right: 600px;}
+  body header, body footer
+  {
+    width:100%
+  }
   body 
   {
     font-family: Arial, Helvetica, sans-serif;
@@ -80,7 +82,7 @@ font-size:25px;
     opacity:0.7;
     transition-property: transform;
     transition: all 400ms ease;
-    transform:scale(1.12) ;
+    transform:scale(1.04) ;
   }
          
        
@@ -149,7 +151,7 @@ font-size:25px;
       background-color: #12724d;
       margin-left: 400px;
       margin-right: 400px;
-      margin-bottom: 100px;
+      margin-bottom: 120px;
       padding-top:0px;
       padding-bottom:0px;
       display: flex;  
@@ -207,7 +209,7 @@ font-size:25px;
 		width: 40px;
 	}
 }
-      
+     
   footer {
       font-size: 30px;
       border: 2px #070808 solid;
@@ -485,7 +487,12 @@ background-clip: text;
          width: 500px;
          height: 600px;
              
-       }   
+       } 
+       .block__item__menu2
+       {
+         margin-bottom: 0px;
+       }
+
        .block__item__menu1 p ,.block__item__menu2 p, .block__item__menu3 p, .block__item__menu4 p
        {
     font-size:28px;
@@ -494,7 +501,7 @@ background-clip: text;
        { 
          margin-left: 400px;
          margin-right: 400px;  
-         margin-bottom: 135px;
+         margin-bottom: 150px;
          font-size: 20px;              
        }
      footer
@@ -585,12 +592,17 @@ background-clip: text;
          font-size:38px;
          align-items: center;
        }
-       .block__item__menu1 ,.block__item__menu2, .block__item__menu3, .block__item__menu4 
+       .block__item__menu1 ,.block__item__menu2, .block__item__menu3  
         {
           width: 300px;
           height: 400px;
           margin-bottom: 80px;
         } 
+        .block__item__menu4{
+          width: 300px;
+          height: 400px;
+          margin-bottom: 40px;
+        }
         .block__item__menu1 p ,.block__item__menu2 p, .block__item__menu3 p, .block__item__menu4 p
         {
           font-size:25px;
@@ -600,7 +612,7 @@ background-clip: text;
           background-color: rgb(18, 114, 77);
           margin-left: 100px;
           margin-right: 100px;
-          margin-bottom: 160px;
+          margin-bottom: 130px;
           font-size: 15px;          
          }
          footer
