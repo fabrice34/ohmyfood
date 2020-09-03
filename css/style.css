@@ -15,7 +15,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-y: scroll;
+    overflow-x:hidden;
   }
   body header, body footer, body .prochainement
   {
@@ -102,12 +102,13 @@ font-size:25px;
         }
         .block__item__menu2 p
         {
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#57200f+26,591a61+56,241672+100 */
+           /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#57200f+26,591a61+56,241672+100 */
         background: #57200f; /* Old browsers */
         background: -moz-linear-gradient(left,  #57200f 26%, #591a61 56%, #241672 100%); /* FF3.6-15 */background: -webkit-linear-gradient(left,  #57200f 26%,#591a61 56%,#241672 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to right,  #57200f 26%,#591a61 56%,#241672 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57200f', endColorstr='#241672',GradientType=1 ); /* IE6-9 */
         -webkit-text-fill-color: transparent;
-        background-clip: text;
+        
         -webkit-background-clip: text;
+        
         word-spacing: -6px;        
         }
         
@@ -123,7 +124,7 @@ font-size:25px;
          background: #241672; /* Old browsers */
          background: -moz-linear-gradient(left,  #241672 26%, #4a4277 53%, #677569 77%); /* FF3.6-15 */background: -webkit-linear-gradient(left,  #241672 26%,#4a4277 53%,#677569 77%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to right,  #241672 26%,#4a4277 53%,#677569 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#241672', endColorstr='#677569',GradientType=1 ); /* IE6-9 */
          -webkit-text-fill-color: transparent;
-         background-clip: text;
+         
          -webkit-background-clip: text;
        }
 
@@ -138,7 +139,7 @@ font-size:25px;
         background: #008a00; /* Old browsers */
         background: -moz-linear-gradient(left,  #008a00 26%, #2a892a 53%, #677569 77%); /* FF3.6-15 */background: -webkit-linear-gradient(left,  #008a00 26%,#2a892a 53%,#677569 77%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to right,  #008a00 26%,#2a892a 53%,#677569 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008a00', endColorstr='#677569',GradientType=1 ); /* IE6-9 */
         -webkit-text-fill-color: transparent;
-         background-clip: text;
+         
          -webkit-background-clip: text; 
         }
         
@@ -172,11 +173,11 @@ font-size:25px;
      -webkit-animation-name: suspensions;
      animation-duration: 1.2s ;
      -webkit-animation-duration: 1.2s;
-     animation-timing-function: step(4,end);
-     -webkit-animation-timing-function: steps(4,end);
+     animation-timing-function: steps(3);
+     -webkit-animation-timing-function: steps(3);
      animation-iteration-count: infinite;
      -webkit-animation-iteration-count: infinite;
-     /*-webkit-animation: suspensions steps(4,end) 1.2s infinite;*/
+     animation: suspensions steps(3) 1.2s infinite;
    }
     
     @keyframes suspensions
@@ -245,8 +246,8 @@ font-size:25px;
   {
    animation-name: secousses;
    -webkit-animation-name:secousses;
-   animation-duration: 0,2s;
-   -webkit-animation-duration: 0.2s;
+   animation-duration: 250ms;
+   -webkit-animation-duration: 250ms;
    animation-iteration-count: infinite;
    -webkit-animation-iteration-count: infinite;
    animation-timing-function: linear;
@@ -304,7 +305,7 @@ font-size:25px;
 
   /* -------------                               css des 4 menus                                 ------------- */
  
-  .tm {text-align: center; font-size: 30px; font-weight: bolder; position: relative; top: 80px;}
+  .tm {text-align: center; font-size: 25px; font-weight: bolder; position: relative; top: 80px;}
 
   .menu1, .menu2, .menu3,.menu4
   {
@@ -365,7 +366,7 @@ i
 }
 .tdroite1, .tgauche1
   {
-    width: 300px;
+    width: 260px;
     fill: black;
   }
 .menu__footer
@@ -389,7 +390,7 @@ i
     background: #57200f; /* Old browsers */
     background: -moz-linear-gradient(left,  #57200f 26%, #591a61 56%, #241672 100%); /* FF3.6-15 */background: -webkit-linear-gradient(left,  #57200f 26%,#591a61 56%,#241672 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to right,  #57200f 26%,#591a61 56%,#241672 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57200f', endColorstr='#241672',GradientType=1 ); /* IE6-9 */
     -webkit-text-fill-color: transparent;
-    background-clip: text;
+    
     -webkit-background-clip: text;
  }    
 .menu__entrée2
@@ -398,7 +399,7 @@ i
 }
 .tdroite2_1, .tgauche2_1
 {
-  width: 300px;
+  width: 260px;
   fill: #57200f;
 }  
 .menu__platderesistance2
@@ -407,7 +408,7 @@ i
 }
 .tdroite2_2, .tgauche2_2
 {
-  width: 300px;
+  width: 260px;
   fill: #591a61;
 } 
 .menu__dessert2
@@ -416,7 +417,7 @@ i
 }
 .tdroite2_3, .tgauche2_3
 {
-  width: 300px;
+  width: 260px;
   fill: #241672;
 }
     
@@ -432,23 +433,23 @@ i
 background: #241672; /* Old browsers */
 background: -moz-linear-gradient(left,  #241672 26%, #4a4277 53%, #677569 77%); /* FF3.6-15 */background: -webkit-linear-gradient(left,  #241672 26%,#4a4277 53%,#677569 77%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to right,  #241672 26%,#4a4277 53%,#677569 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#241672', endColorstr='#677569',GradientType=1 ); /* IE6-9 */
 -webkit-text-fill-color: transparent;
-background-clip: text;
+
 -webkit-background-clip: text;
 }
 
 .tdroite3_1, .tgauche3_1
 {
-  width: 300px;
+  width: 260px;
   fill: #241672;
 } 
 .tdroite3_2, .tgauche3_2
 {
-  width: 300px;
+  width: 260px;
   fill: #4a4277;
 }  
 .tdroite3_3,  .tgauche3_3
 {
-  width: 300px;
+  width: 260px;
   fill: #677569;
 }
  
@@ -464,12 +465,12 @@ background-clip: text;
   background: #008a00; /* Old browsers */
   background: -moz-linear-gradient(left,  #008a00 26%, #2a892a 53%, #677569 77%); /* FF3.6-15 */background: -webkit-linear-gradient(left,  #008a00 26%,#2a892a 53%,#677569 77%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to right,  #008a00 26%,#2a892a 53%,#677569 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008a00', endColorstr='#677569',GradientType=1 ); /* IE6-9 */
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  
   -webkit-background-clip: text; 
 }
 .tdroite4, .tgauche4
 {
-  width: 300px;
+  width: 260px;
 }
 
 /* ------------- responsive page principale avec 3 breackpoint pour ecran d'ordi, ecran tablette et ecran smatphone  ------------- */
@@ -479,8 +480,7 @@ background-clip: text;
        {
          display: flex;
          flex-direction: column;
-         align-items: center; 
-         
+         align-items: center;         
        }
       
      .block, .containt
@@ -524,20 +524,20 @@ background-clip: text;
        }
        .menu1, .menu2, .menu3,.menu4
        {
-         border: 2px rgb(119, 116, 116) solid;
-         
+         border: 2px rgb(119, 116, 116) solid;    
          padding: 30px;
-         font-size: 25px;  
-       }  
+         font-size: 30px;           
+       } 
+       .tm,.containt { font-size: 30px;} 
        .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
        {
-         width: 150px;
+         width: 50px;
        }
        
    }
    
    
-   @media all and (max-width: 699px)
+   @media all and (max-width: 879px)
    {
        body
        {
@@ -576,14 +576,14 @@ background-clip: text;
 
        .menu1, .menu2, .menu3,.menu4
        {
-         border: 2px #777474 solid;
-         
+         border: 2px #777474 solid;   
          padding: 30px;
-         font-size: 20px;
+         font-size:20px
        } 
+       .containt { font-size:20px;} 
        .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
        {
-         width: 80px;
+         width: 15px;
        }  
    }      
    
@@ -646,13 +646,12 @@ background-clip: text;
         width: 60%;
         height: auto;
         padding: 30px;
-        font-size: 15px;   
-        
+        font-size: 15px;      
        }
        .tm ,.containt { font-size: 20px;}
-       .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
+       .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2,.tdroite2_3, .tgauche2_3,.tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
        {
-          width: 60px;
+          width: 20px;
        }
      }
    
