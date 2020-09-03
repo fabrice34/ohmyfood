@@ -309,9 +309,13 @@ font-size:25px;
   .menu1, .menu2, .menu3,.menu4
   {
     border: 2px rgb(119, 116, 116) solid;
-    margin : 100px 120px 200px 120px;
-    padding:  40px  40px  80px  40px;   
+    width: 70%;
+    height: auto;
+    padding:  40px  40px  80px  40px;
+    margin-top: 80px;  
+    margin-bottom: 110px; 
     font-size: 30px;
+   
     
   }
 .menu__header ,.menu__header2 ,.menu__header3,.menu__header4, h3, .menu__footer
@@ -521,7 +525,7 @@ background-clip: text;
        .menu1, .menu2, .menu3,.menu4
        {
          border: 2px rgb(119, 116, 116) solid;
-         margin : 80px 80px 220px 80px;
+         
          padding: 30px;
          font-size: 25px;  
        }  
@@ -573,7 +577,7 @@ background-clip: text;
        .menu1, .menu2, .menu3,.menu4
        {
          border: 2px #777474 solid;
-         margin : 80px 80px 220px 80px;
+         
          padding: 30px;
          font-size: 20px;
        } 
@@ -639,11 +643,13 @@ background-clip: text;
        .menu1, .menu2, .menu3,.menu4
        {
         border: 2px rgb(119, 116, 116) solid;
-        margin : 80px 80px 220px 80px;
+        width: 60%;
+        height: auto;
         padding: 30px;
-        font-size: 20px;   
+        font-size: 15px;   
+        
        }
-       .tm  { font-size: 30px;}
+       .tm ,.containt { font-size: 20px;}
        .tdroite1, .tgauche1, .tdroite2_1, .tgauche2_1, .tdroite2_2, .tgauche2_2, .tdroite3_1, .tgauche3_1, .tdroite3_2, .tgauche3_2,.tdroite3_3,  .tgauche3_3, .tgauche4,.tdroite4
        {
           width: 60px;
