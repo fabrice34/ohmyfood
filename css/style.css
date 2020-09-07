@@ -183,32 +183,20 @@ font-size:25px;
     @keyframes suspensions
 {
 	0%
-	{
-		width: 0;
-	}
+	{		width: 0;	}
 	50%
-	{
-		width: 20px;
-	}
+	{		width: 20px;	}
 	100%
-	{
-		width: 40px;
-	}
+	{	width: 40px;}
 }
 @-webkit-keyframes suspensions
 {
 	0%
-	{
-		width: 0;
-	}
+	{	width: 0;}
 	50%
-	{
-		width: 20px;
-	}
+	{	width: 20px;	}
 	100%
-	{
-		width: 40px;
-	}
+	{	width: 40px;	}
 }
      
   footer {
@@ -257,50 +245,27 @@ font-size:25px;
   @keyframes secousses
   {
    0%
-   {
-     -webkit-transform: translateY(0px) ;
-   } 
+   { -webkit-transform: translateY(0px);} 
    10%
-   {
-     -webkit-transform: translateY(1px) ;
-   } 
+   {-webkit-transform: translateY(1px) ;} 
    20%
-   {
-     -webkit-transform: translateY(2px) ;
-   }
+   { -webkit-transform: translateY(2px) ;}
    30%
-   {
-     -webkit-transform: translateY(2px) ;
-   } 
+   { -webkit-transform: translateY(2px) ;} 
    40%
-   {
-     -webkit-transform: translateY(1px);
-   } 
+   {   -webkit-transform: translateY(1px);} 
    50%
-   {
-     -webkit-transform: translateY(0px) ;
-   } 
+   {   -webkit-transform: translateY(0px) ;} 
    60%
-   {
-     -webkit-transform: translateY(-1px) ;
-   }
+   {  -webkit-transform: translateY(-1px) ;}
    70%
-   {
-     -webkit-transform: translateY(-2px) ;
-   }
- 
+   {  -webkit-transform: translateY(-2px) ;}
    80%
-   {
-     -webkit-transform: translateY(-2px);
-   } 
+   {  -webkit-transform: translateY(-2px);} 
    90%
-   {
-     -webkit-transform: translateY(-1px) ;
-   } 
+   {  -webkit-transform: translateY(-1px) ;} 
    100%
-   {
-     -webkit-transform: translateY(0px);
-   }
+   {     -webkit-transform: translateY(0px);}
   }
 
   /* -------------                               css des 4 menus                                 ------------- */
@@ -314,7 +279,7 @@ font-size:25px;
     height: auto;
     padding:  40px  40px  80px  40px;
     margin-top: 80px;  
-    margin-bottom: 110px; 
+    margin-bottom: 160px; 
     font-size: 30px;
    
     
